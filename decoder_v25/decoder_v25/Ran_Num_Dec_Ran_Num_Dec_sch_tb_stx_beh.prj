@@ -1,0 +1,5 @@
+vhdl isim_temp "Random_gen.vhd"
+vhdl isim_temp "Comparator.vhd"
+vhdl isim_temp "CNT_12.vhd"
+vhdl isim_temp "Ran_Num_Dec.vhf"
+vhdl isim_temp "DecS_t.vhd"

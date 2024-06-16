@@ -1,0 +1,2 @@
+vhdtdtfi -lib work bufe16.vhd -prj buses -o bufe16.spl -module bufe16 -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 bufe16.spl D:/projects/a_dlx/buses/bufe16.sym 

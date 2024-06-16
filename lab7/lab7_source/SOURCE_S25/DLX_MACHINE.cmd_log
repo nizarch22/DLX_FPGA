@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_MACHINE_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/DLX_MACHINE.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX_MACHINE E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/DLX_MACHINE.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/DLX_MACHINE.sym 

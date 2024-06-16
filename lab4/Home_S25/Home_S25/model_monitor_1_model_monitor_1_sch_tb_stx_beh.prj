@@ -1,0 +1,6 @@
+vhdl isim_temp "REG32CE.vhd"
+vhdl isim_temp "RAM32X32S.vhd"
+vhdl isim_temp "MUX5BIT.vhd"
+vhdl isim_temp "CNT5.vhd"
+vhdl isim_temp "model_monitor_1.vhf"
+vhdl isim_temp "tb_model_monitor1.vhd"

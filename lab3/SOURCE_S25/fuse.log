@@ -1,0 +1,86 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/Top_Level_Top_Level_sch_tb_isim_beh.exe -prj E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/Top_Level_Top_Level_sch_tb_beh.prj work.Top_Level_Top_Level_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/../../../../../Lab_base/IO_LOGIC_U/SyncToClk.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/../../../../../Lab_base/IO_LOGIC_U/Common.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/../../../../../Lab_base/IO_LOGIC_U/sdram_adapter_U.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/../../../../../Lab_base/IO_LOGIC_U/SdramCntl.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/../../../../../Lab_base/IO_LOGIC_U/Interface_Ctrl_U.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/../../../../../Lab_base/IO_LOGIC_U/HostIoToDut_U.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/../../../../../Lab_base/IO_LOGIC_U/ClkGen_U.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/step_counter.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/RAM32X32S.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/MUX5BIT.VHD" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/MUX4_32bit.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/BUF5.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/BROJA.VHD" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/../../../../../Lab_base/IO_LOGIC_U/IO_LOGIC_U.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/slave_scheme.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/master.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/ID_NUM.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/Top_Level.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/top_level_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package commonpckg
+Compiling package clkgenpckg
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package hostiopckg
+Compiling package math_real
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture dcm_sp_clock_divide_by_2_v of entity dcm_sp_clock_divide_by_2 [dcm_sp_clock_divide_by_2_default]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_clock_lost_v of entity dcm_sp_clock_lost [dcm_sp_clock_lost_default]
+Compiling architecture dcm_sp_v of entity DCM_SP [\DCM_SP(true,"*",true,false,2.0,...]
+Compiling architecture oddr2_v of entity ODDR2 [\ODDR2("NONE",'0',"SYNC")(1,4,1,...]
+Compiling architecture arch of entity ClkToLogic [clktologic_default]
+Compiling architecture arch of entity ClkGen_U [\ClkGen_U(12.0,10,2)\]
+Compiling architecture bscan_spartan6_v of entity BSCAN_SPARTAN6 [\BSCAN_SPARTAN6(1)\]
+Compiling architecture arch of entity BscanToHostIo [\BscanToHostIo(spartan6,user1)\]
+Compiling architecture arch of entity HostIoHdrScanner [\HostIoHdrScanner(('1','1','1','...]
+Compiling architecture arch of entity HostIoToDut_U [\HostIoToDut_U(('1','1','1','1',...]
+Compiling architecture behavioral of entity Interface_Ctrl_U [interface_ctrl_u_default]
+Compiling architecture behavioral of entity sdram_adapter_U [sdram_adapter_u_default]
+Compiling package synctoclockpckg
+Compiling architecture arch of entity SyncToClock [synctoclock_default]
+Compiling architecture arch of entity RamCtrlSync [ramctrlsync_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity Sync_U [sync_u_default]
+Compiling architecture arch of entity SdramCntl_U [\SdramCntl_U(60.0,true,false,100...]
+Compiling architecture behavioral of entity IO_LOGIC_U [io_logic_u_default]
+Compiling architecture behavioral of entity broja [broja_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture ram32x1s_v of entity RAM32X1S [\RAM32X1S("000000000000000000000...]
+Compiling architecture behavioral of entity RAM32X8S_MXILINX_slave_monitor [ram32x8s_mxilinx_slave_monitor_d...]
+Compiling architecture behavioral of entity RAM32X32S [ram32x32s_default]
+Compiling architecture behavioral of entity mux5bit [mux5bit_default]
+Compiling architecture buf_v of entity BUF [buf_default]
+Compiling architecture behavioral of entity BUF5_MUSER_Top_Level [buf5_muser_top_level_default]
+Compiling architecture behavioral of entity step_counter [step_counter_default]
+Compiling architecture behavioral of entity master_MUSER_Top_Level [master_muser_top_level_default]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture and3_v of entity AND3 [and3_default]
+Compiling architecture nand2_v of entity NAND2 [nand2_default]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture behavioral of entity MUX4_32bit [mux4_32bit_default]
+Compiling architecture behavioral of entity slave_scheme_MUSER_Top_Level [slave_scheme_muser_top_level_def...]
+Compiling architecture behavioral of entity ID_NUM [id_num_default]
+Compiling architecture behavioral of entity Top_Level [top_level_default]
+Compiling architecture behavioral of entity top_level_top_level_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+Compiled 92 VHDL Units
+Built simulation executable E:/adlx/Semester_B/Nizar_ReaalAA/lab3/SOURCE_S25/Top_Level_Top_Level_sch_tb_isim_beh.exe
+Fuse Memory Usage: 65824 KB
+Fuse CPU Usage: 3686 ms

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Write_State_Machine.vhd -prj Home_V14_S25 -o Write_State_Machine.spl -module Write_State_Machine -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Write_State_Machine.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab5/Home_S25/Home_S25/Write_State_Machine.sym 

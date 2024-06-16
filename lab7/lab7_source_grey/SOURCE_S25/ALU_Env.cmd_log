@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym ALU_Env E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/ALU_Env.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/ALU_Env.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym ALU_Env E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/ALU_Env.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/ALU_Env.sym 

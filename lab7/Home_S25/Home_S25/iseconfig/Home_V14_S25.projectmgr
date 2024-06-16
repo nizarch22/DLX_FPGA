@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Home_V14_S25" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ADD_SUB_32 E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|ADD_SUB_32.sch</ClosedNode>
+         <ClosedNode>/ALU E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|ALU.sch</ClosedNode>
+         <ClosedNode>/ALU E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|ALU.sch/XLXI_46 - ADD_SUB_32</ClosedNode>
+         <ClosedNode>/ALU_Env E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|ALU_Env.sch</ClosedNode>
+         <ClosedNode>/DLX_Control_Module E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|DLX_Control_Module.sch</ClosedNode>
+         <ClosedNode>/DLX_MACHINE E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|DLX_MACHINE.sch/XLXI_1 - Data_Path_DLX</ClosedNode>
+         <ClosedNode>/DLX_MACHINE E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|DLX_MACHINE.sch/XLXI_2 - DLX_Control_Module</ClosedNode>
+         <ClosedNode>/Data_Path_DLX E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|Data_Path_DLX.sch</ClosedNode>
+         <ClosedNode>/Data_Path_DLX E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|Data_Path_DLX.sch/XLXI_114 - IR</ClosedNode>
+         <ClosedNode>/Data_Path_DLX E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|Data_Path_DLX.sch/XLXI_16 - Program_Counter</ClosedNode>
+         <ClosedNode>/Data_Path_DLX E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|Data_Path_DLX.sch/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/Data_Path_DLX E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|Data_Path_DLX.sch/XLXI_23 - IR</ClosedNode>
+         <ClosedNode>/Data_Path_DLX E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|Data_Path_DLX.sch/XLXI_272 - ALU</ClosedNode>
+         <ClosedNode>/RAM32X32S - Behavioral E:|Home_V14_S25|RAM32X32S.vhd</ClosedNode>
+         <ClosedNode>/RAM32X32S - Behavioral E:|Lab_base|Home_S25|RAM32X32S.vhd</ClosedNode>
+         <ClosedNode>/RAM32X32S - Behavioral E:|Lab_base|Home_V14_S25|RAM32X32S.vhd</ClosedNode>
+         <ClosedNode>/RAM32X32S - Behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab4|Home_S25|Home_S25|RAM32X32S.vhd</ClosedNode>
+         <ClosedNode>/RAM32X32S - Behavioral I:|Lab_base|Home_S25|RAM32X32S.vhd</ClosedNode>
+         <ClosedNode>/Read_Machine E:|adlx|Semester_B|Nizar_ReaalAA|lab5|Home_S25|Home_S25|Read_Machine.sch</ClosedNode>
+         <ClosedNode>/Read_Machine E:|adlx|Semester_B|Nizar_ReaalAA|lab5|SOURCE_S25|Read_Machine.sch</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_3 - DLX_MACHINE/XLXI_1 - Data_Path_DLX</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_3 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_114 - IR</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_3 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_16 - Program_Counter</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_3 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_3 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_288 - ALU_Env</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_3 - DLX_MACHINE/XLXI_2 - DLX_Control_Module</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_4 - IO_SIMUL - Behavioral</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_6 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_114 - IR</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_6 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_16 - Program_Counter</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_6 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_6 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_288 - ALU_Env</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_7 - DLX_MACHINE/XLXI_1 - Data_Path_DLX</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_7 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_114 - IR</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_7 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_16 - Program_Counter</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_7 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|TOP_LEVEL_IOSIMUL.sch/XLXI_7 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_288 - ALU_Env</ClosedNode>
+         <ClosedNode>/Write_Machine E:|adlx|Semester_B|Nizar_ReaalAA|lab5|Home_S25|Home_S25|Write_Machine.sch</ClosedNode>
+         <ClosedNode>/Write_Machine E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|Write_Machine.sch</ClosedNode>
+         <ClosedNode>/model_monitor E:|adlx|Semester_B|Nizar_ReaalAA|lab4|Home_S25|Home_S25|model_monitor.sch</ClosedNode>
+         <ClosedNode>/model_monitor E:|adlx|Semester_B|Nizar_ReaalAA|lab5|Home_S25|Home_S25|model_monitor.sch</ClosedNode>
+         <ClosedNode>/model_monitor E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|model_monitor.sch</ClosedNode>
+         <ClosedNode>/model_monitor_1 E:|adlx|Semester_B|Nizar_ReaalAA|lab4|Home_S25|Home_S25|model_monitor_1.sch</ClosedNode>
+         <ClosedNode>/model_monitor_1 E:|adlx|Semester_B|Nizar_ReaalAA|lab5|Home_S25|Home_S25|model_monitor_1.sch</ClosedNode>
+         <ClosedNode>/model_monitor_1 E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|model_monitor_1.sch</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>model_monitor (E:/old_2023/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/model_monitor.sch)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000241000000020000000000000000000000000200000064ffffffff000000810000000300000002000002410000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>model_monitor (E:/old_2023/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/model_monitor.sch)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ec000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ec0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002c60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>AEQZ.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Create Schematic Symbol</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ec000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ec0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Create Schematic Symbol</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|ALU.sch</ClosedNode>
+         <ClosedNode>/DLX_Control_Module_DLX_Control_Module_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|control_t.vhd</ClosedNode>
+         <ClosedNode>/DLX_Control_Module_DLX_Control_Module_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|control_t.vhd/UUT - DLX_Control_Module</ClosedNode>
+         <ClosedNode>/Data_Path_DLX E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|Data_Path_DLX.sch</ClosedNode>
+         <ClosedNode>/Read_Machine_Read_Machine_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab5|Home_S25|Home_S25|read_machine_tb.vhd</ClosedNode>
+         <ClosedNode>/Read_Machine_Read_Machine_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|read_machine_tb.vhd</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|iosimul_tb.vhd</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|iosimul_tb.vhd/UUT - TOP_LEVEL_IOSIMUL/XLXI_3 - DLX_MACHINE</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|iosimul_tb.vhd/UUT - TOP_LEVEL_IOSIMUL/XLXI_3 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_114 - IR</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|iosimul_tb.vhd/UUT - TOP_LEVEL_IOSIMUL/XLXI_3 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_16 - Program_Counter</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|iosimul_tb.vhd/UUT - TOP_LEVEL_IOSIMUL/XLXI_3 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|iosimul_tb.vhd/UUT - TOP_LEVEL_IOSIMUL/XLXI_3 - DLX_MACHINE/XLXI_1 - Data_Path_DLX/XLXI_288 - ALU_Env</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|iosimul_tb.vhd/UUT - TOP_LEVEL_IOSIMUL/XLXI_3 - DLX_MACHINE/XLXI_2 - DLX_Control_Module</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|iosimul_tb.vhd/UUT - TOP_LEVEL_IOSIMUL/XLXI_4 - IO_SIMUL - Behavioral</ClosedNode>
+         <ClosedNode>/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|iosimul_tb.vhd/UUT - TOP_LEVEL_IOSIMUL/XLXI_6 - DLX_MACHINE</ClosedNode>
+         <ClosedNode>/Write_Machine E:|adlx|Semester_B|Nizar_ReaalAA|lab5|Home_S25|Home_S25|Write_Machine.sch</ClosedNode>
+         <ClosedNode>/Write_Machine_Write_Machine_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|tb_Write_Machine.vhd</ClosedNode>
+         <ClosedNode>/alu_adder_tb - behavior E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|alu_adder_tb.vhd</ClosedNode>
+         <ClosedNode>/model_monitor E:|adlx|Semester_B|Nizar_ReaalAA|lab4|Home_S25|Home_S25|model_monitor.sch</ClosedNode>
+         <ClosedNode>/model_monitor E:|adlx|Semester_B|Nizar_ReaalAA|lab5|Home_S25|Home_S25|model_monitor.sch</ClosedNode>
+         <ClosedNode>/model_monitor E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|model_monitor.sch</ClosedNode>
+         <ClosedNode>/model_monitor_1_model_monitor_1_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab4|Home_S25|Home_S25|tb_model_monitor1.vhd/UUT - model_monitor_1</ClosedNode>
+         <ClosedNode>/model_monitor_1_model_monitor_1_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab5|Home_S25|Home_S25|tb_model_monitor1.vhd</ClosedNode>
+         <ClosedNode>/model_monitor_1_model_monitor_1_sch_tb - behavioral E:|adlx|Semester_B|Nizar_ReaalAA|lab7|Home_S25|Home_S25|tb_model_monitor1.vhd</ClosedNode>
+         <ClosedNode>/tb_Write_Machine - behavior E:|adlx|Semester_B|Nizar_ReaalAA|lab5|Home_S25|Home_S25|tb_Write_Machine.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Read_State_Machine - Behavioral (E:/old_2023/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Read_State_Machine.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000255000000020000000000000000000000000200000064ffffffff000000810000000300000002000002550000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Read_State_Machine - Behavioral (E:/old_2023/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Read_State_Machine.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ec000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ec0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Data_Path_DLX E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/Data_Path_DLX.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/Data_Path_DLX.sym 

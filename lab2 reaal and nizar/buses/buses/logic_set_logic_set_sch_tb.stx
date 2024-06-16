@@ -1,0 +1,48 @@
+Release 14.1 - xst P.15xf (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/projects/a_dlx/buses/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Parameter xsthdpdir set to D:/projects/a_dlx/buses/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/logic_set_logic_set_sch_tb is now defined in a different file.  It was defined in "D:/projects/a_dlx/buses/write_t.vhd", and is now defined in "D:/projects/a_dlx/buses/read_t.vhd".
+WARNING:HDLParsers:3607 - Unit work/logic_set_logic_set_sch_tb/behavioral is now defined in a different file.  It was defined in "D:/projects/a_dlx/buses/write_t.vhd", and is now defined in "D:/projects/a_dlx/buses/read_t.vhd".
+Compiling vhdl file "D:/projects/a_dlx/buses/sram_data.vhd" in Library work.
+Architecture sram_data of Entity sram_data is up to date.
+Compiling vhdl file "D:/projects/a_dlx/buses/read_t.vhd" in Library work.
+Entity <logic_set_logic_set_sch_tb> compiled.
+ERROR:HDLParsers:1015 - "D:/projects/a_dlx/buses/read_t.vhd" Line 58. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/projects/a_dlx/buses/read_t.vhd" Line 60. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/projects/a_dlx/buses/read_t.vhd" Line 69. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/projects/a_dlx/buses/read_t.vhd" Line 70. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/projects/a_dlx/buses/read_t.vhd" Line 73. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/projects/a_dlx/buses/read_t.vhd" Line 75. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/projects/a_dlx/buses/read_t.vhd" Line 77. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/projects/a_dlx/buses/read_t.vhd" Line 79. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/projects/a_dlx/buses/read_t.vhd" Line 81. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/projects/a_dlx/buses/read_t.vhd" Line 83. Wait for statement unsupported.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.47 secs
+ 
+--> 
+
+Total memory usage is 172720 kilobytes
+
+Number of errors   :   10 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

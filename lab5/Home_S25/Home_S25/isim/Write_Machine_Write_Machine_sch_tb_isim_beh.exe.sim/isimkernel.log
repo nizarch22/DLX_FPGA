@@ -1,0 +1,30 @@
+Command line:
+   Write_Machine_Write_Machine_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  52310
+
+Thu May 11 15:44:01 2023
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5151.25 Meg
+
+ Total Signals          : 92
+ Total Nets             : 150
+ Total Signal Drivers   : 23
+ Total Blocks           : 18
+ Total Primitive Blocks : 16
+ Total Processes        : 20
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 660
+Total Line Count : 48
+Total Line Count : 48
+
+ Total Simulation Time: 1.75 sec
+
+ Current Memory Usage: 4679.39 Meg
+
+Thu May 11 16:37:00 2023
+

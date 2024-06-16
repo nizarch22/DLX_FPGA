@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Control_DLX_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="control_dlx" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/control_dlx/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dlx/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dlx/step_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">step_en</obj_property>
+      <obj_property name="ObjectShortName">step_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dlx/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dlx/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dlx/mr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mr</obj_property>
+      <obj_property name="ObjectShortName">mr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dlx/mw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mw</obj_property>
+      <obj_property name="ObjectShortName">mw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dlx/state_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dlx/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dlx/load_opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">load_opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">load_opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dlx/store_opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">store_opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">store_opcode[5:0]</obj_property>
+   </wvobject>
+</wave_config>

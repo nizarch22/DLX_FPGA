@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3 -flat -suppress -vhdl logic_set_drc.vhf -w D:/projects/a_dlx/buses/logic_set.sch 
+sch2sym -intstyle ise -family spartan3 -w -refsym logic_set {E:/adlx/Semester_B/lab2 reaal and nizar/buses/buses/logic_set.sch} {E:/adlx/Semester_B/lab2 reaal and nizar/buses/buses/logic_set.sym} 

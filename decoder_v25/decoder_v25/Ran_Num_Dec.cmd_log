@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/adlx/Semester B/decoder_v25/decoder_v25/Ran_Num_Dec.xst" -ofn "E:/adlx/Semester B/decoder_v25/decoder_v25/Ran_Num_Dec.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-ftg256-2 "Ran_Num_Dec.ngc" Ran_Num_Dec.ngd  
+map -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Ran_Num_Dec_map.ncd Ran_Num_Dec.ngd Ran_Num_Dec.pcf 
+par -w -intstyle ise -ol high -mt off Ran_Num_Dec_map.ncd Ran_Num_Dec.ncd Ran_Num_Dec.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Ran_Num_Dec.twx Ran_Num_Dec.ncd -o Ran_Num_Dec.twr Ran_Num_Dec.pcf 
+xst -intstyle ise -ifn "E:/adlx/Semester_B/decoder_v25/decoder_v25/Ran_Num_Dec.xst" -ofn "E:/adlx/Semester_B/decoder_v25/decoder_v25/Ran_Num_Dec.syr" 

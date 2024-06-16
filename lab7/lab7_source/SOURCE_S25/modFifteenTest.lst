@@ -1,0 +1,62 @@
+0x00000000: 0x101F00FF	            	 beqz R0 modTest
+0x00000004: 0x1A1A1A1A	word_1:     	 dc 0x1a1a1a1a
+0x00000005: 0xF1F1F1F1	word_2:     	 dc 0xf1f1f1f1
+0x00000006: 0x5F5F5F5F	word_3:     	 dc 0x5f5f5f5f
+0x00000007: 0x00010001	word_4:     	 dc 0x00010001
+0x00000008: 0x05050505	word_5:     	 dc 0x05050505
+0x00000009: 0xF2345678	word_6:     	 dc 0xf2345678
+0x0000000A: 0xF7654321	word_7:     	 dc 0xf7654321
+0x0000000B: 0xFBCDABCD	word_8:     	 dc 0xfbcdabcd
+0x0000000C: 0xFF10FE10	word_9:     	 dc 0xff10fe10
+0x0000000D: 0xF1818181	word_10:    	 dc 0xf1818181
+0x00000100: 0x2C060109	modTest:    	 addi R6 R0 mod
+0x00000101: 0x2C0A0000	            	 	addi R10 R0 0x0
+0x00000102: 0x8D410004	loopTest:   	 lw R1 R10 word_1
+0x00000103: 0x5CDF0000	            	 	jalr R6
+0x00000104: 0xAD5E000E	            	 	sw R30 R10 0xE
+0x00000105: 0x2D4A0001	            	 	addi R10 R10 0x1
+0x00000106: 0x694B000A	            	 	seqi R11 R10 0xa
+0x00000107: 0x117FFFFA	            	 	beqz R11 loopTest
+0x00000108: 0xFFFF0000	            	 	halt
+0x00000109: 0x2C020000	mod:        	 addi R2 R0 0x0
+0x0000010A: 0x2C1E0000	            	 	addi R30 R0 0x0
+0x0000010B: 0x2C0F000F	            	 	addi R15 R0 0xf
+0x0000010C: 0x2C240000	            	 	addi R4 R1 0x0
+0x0000010D: 0x68430008	loop:       	 seqi R3 R2 0x8
+0x0000010E: 0x147F0004	            	 	bnez R3 loop1
+0x0000010F: 0x002FE826	            	 	and R29 R1 R15
+0x00000110: 0x03DDF023	            	 	add R30 R30 R29
+0x00000111: 0x2C420001	            	 	addi R2 R2 0x1
+0x00000112: 0x101F0005	            	 	beqz R0 fourr
+					            	 
+0x00000113: 0x73D4000F	loop1:      	 slti R20 R30 0xf
+0x00000114: 0x169F0008	            	 	bnez R20 breakL
+0x00000115: 0x2FDEFFF1	            	 	addi R30 R30 0xFFF1
+0x00000116: 0x101FFFFC	            	 	beqz R0 loop1
+0x00000117: 0x5BFF0000	            	 	jr R31
+0x00000118: 0x003F0802	fourr:      	 srli R1 R1
+0x00000119: 0x003F0802	            	 	srli R1 R1
+0x0000011A: 0x003F0802	            	 	srli R1 R1
+0x0000011B: 0x003F0802	            	 	srli R1 R1
+0x0000011C: 0x101FFFF0	            	 	beqz R0 loop
+0x0000011D: 0x5BFFED78	breakL:     	 jr R31
+
+Label Report:
+word_1: 3 D: 16
+word_2: 4 D: 
+word_3: 5 D: 
+word_4: 6 D: 
+word_5: 7 D: 
+word_6: 8 D: 
+word_7: 9 D: 
+word_8: 10 D: 
+word_9: 11 D: 
+word_10: 12 D: 
+modtest: 14 D: 1
+looptest: 16 D: 21
+mod: 23 D: 14
+loop: 27 D: 43
+loop1: 34 D: 28, 37
+fourr: 39 D: 32
+breakl: 44 D: 35
+*XML file date: Wed 20/6/2012 6:49:12

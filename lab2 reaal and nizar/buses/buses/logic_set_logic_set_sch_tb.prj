@@ -1,0 +1,5 @@
+vhdl work "sram_data.vhd"
+vhdl work "SRAM.VHD"
+vhdl work "bufe16.vhd"
+vhdl work "cpu.vhd"
+vhdl work "read_t.vhd"

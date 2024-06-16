@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/adlx/Semester_B/Nizar_ReaalAA/test/Home_S25/Home_S25/tempsch_tempsch_sch_tb_isim_beh.exe" -prj "E:/adlx/Semester_B/Nizar_ReaalAA/test/Home_S25/Home_S25/tempsch_tempsch_sch_tb_beh.prj" "work.tempsch_tempsch_sch_tb" 

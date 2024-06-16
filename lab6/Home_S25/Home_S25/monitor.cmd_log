@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl monitor_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab4/Home_S25/Home_S25/monitor.sch 
+sch2sym -intstyle ise -family spartan6 -refsym monitor E:/adlx/Semester_B/Nizar_ReaalAA/lab4/Home_S25/Home_S25/monitor.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab4/Home_S25/Home_S25/monitor.sym 

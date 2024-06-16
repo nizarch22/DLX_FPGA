@@ -1,0 +1,17 @@
+0x00000000: 0x2C02001F	rev:        	 addi R2 R0 0x1f
+0x00000001: 0x2C030001	            	 	addi R3 R0 0x1
+0x00000002: 0x2C040000	            	 	addi R4 R0 0x0
+0x00000003: 0x2C1E0000	            	 	addi R30 R0 0x0
+					            	 
+0x00000004: 0x00232826	loop:       	 and R5 R1 R3
+0x00000005: 0x03C5F024	            	 	xor R30 R30 R5
+0x00000006: 0x003F0802	            	 	srli R1 R1
+0x00000007: 0x03DFF000	            	 	slli R30 R30
+0x00000008: 0x2C42FFFF	            	 	addi R2 R2 0xFFFF
+0x00000009: 0x145FFFFA	            	 	bnez R2 loop
+0x0000000A: 0x5BFF0000	            	 	jr R31
+
+Label Report:
+rev: 1 D: 
+loop: 6 D: 11
+*XML file date: Wed 20/6/2012 6:49:12

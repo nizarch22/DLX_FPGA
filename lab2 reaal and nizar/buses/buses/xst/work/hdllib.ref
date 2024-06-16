@@ -1,0 +1,12 @@
+EN r2 NULL "E:/adlx/Semester_B/lab2 reaal and nizar/buses/buses/Register.vhd" sub00/vhpl10 1681716725
+EN logic_set_logic_set_sch_tb NULL D:/projects/a_dlx/buses/read_t.vhd sub00/vhpl06 1341312506
+EN sram NULL D:/projects/a_dlx/buses/SRAM.VHD sub00/vhpl08 1341311100
+EN cpu NULL D:/a_dlx10/Marko/buses/cpu.vhd sub00/vhpl01 1415272426
+EN bufe16 NULL D:/projects/a_dlx/buses/bufe16.vhd sub00/vhpl00 1341311098
+AR cpu behavioral D:/a_dlx10/Marko/buses/cpu.vhd sub00/vhpl02 1415272427
+PH sram_data NULL D:/projects/a_dlx/buses/sram_data.vhd sub00/vhpl04 1341312504
+PB sram_data sram_data D:/projects/a_dlx/buses/sram_data.vhd sub00/vhpl05 1341312505
+AR bufe16 behavioral D:/projects/a_dlx/buses/bufe16.vhd sub00/vhpl03 1341311099
+AR r2 behavioral "E:/adlx/Semester_B/lab2 reaal and nizar/buses/buses/Register.vhd" sub00/vhpl11 1681716726
+AR logic_set_logic_set_sch_tb behavioral D:/projects/a_dlx/buses/write_t.vhd sub00/vhpl07 1341311095
+AR sram behavioral D:/projects/a_dlx/buses/SRAM.VHD sub00/vhpl09 1341311101

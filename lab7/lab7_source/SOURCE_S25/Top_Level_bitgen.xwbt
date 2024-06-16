@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\adlx\Semester_B\Nizar_ReaalAA\lab7\lab7_source\SOURCE_S25\Top_Level.ncd
+OUTFILE=E:\adlx\Semester_B\Nizar_ReaalAA\lab7\lab7_source\SOURCE_S25\Top_Level.bit
+FAMILY=Spartan6
+PART=xc6slx25-2ftg256
+WORKINGDIR=E:\adlx\Semester_B\Nizar_ReaalAA\lab7\lab7_source\SOURCE_S25
+LICENSE=WebPack
+USER_INFO=210840218_0_0_270

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/Home_S25/slave_scheme_slave_scheme_sch_tb_isim_beh.exe" -prj "E:/adlx/Semester_B/Nizar_ReaalAA/lab3/Home_S25/slave_scheme_slave_scheme_sch_tb_beh.prj" "work.slave_scheme_slave_scheme_sch_tb" 

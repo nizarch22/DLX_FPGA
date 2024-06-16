@@ -1,0 +1,70 @@
+reset and init:
+
+		--reset
+		wait for clk_period*5;
+		reset<='1';
+		wait for clk_period;
+		reset<='0';
+		wait for clk_period;
+		step_en<='1';
+		wait for clk_period;
+		step_en<='0';
+
+
+ACK and OPCODE:
+
+		-- new command
+		wait for clk_period*5;
+		ACK_N<='0';
+		wait for clk_period;
+		ACK_N<='1';
+		-- wait for clk_period;
+		--fetch
+		Opcode<="111111";
+		FUNC<="000000";
+		wait for clk_period; 
+		-- decode
+		wait for clk_period;
+
+Routine:
+	
+		--reset
+		wait for clk_period*5;
+		reset<='1';
+		wait for clk_period;
+		reset<='0';
+		wait for clk_period;
+		step_en<='1';
+		wait for clk_period;
+		step_en<='0';
+
+		-- new command
+		wait for clk_period*5;
+		ACK_N<='0';
+		wait for clk_period;
+		ACK_N<='1';
+		-- wait for clk_period;
+		--fetch
+		Opcode<="111111";
+		FUNC<="000000";
+		wait for clk_period; 
+		-- decode
+		wait for clk_period;
+
+		-- followup
+		wait for clk_period*5;
+		ACK_N<='0';
+		wait for clk_period;
+		ACK_N<='1';
+		wait for clk_period;
+
+	
+
+followup:
+		-- followup
+		wait for clk_period*5;
+		ACK_N<='0';
+		wait for clk_period;
+		ACK_N<='1';
+		wait for clk_period;
+	

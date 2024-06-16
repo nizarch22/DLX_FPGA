@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="DLX_State_Mapper">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2023-7-11T15:53:19</timestamp>
+    <pin polarity="Input" x="0" y="-1120" name="Control(4:0)" />
+    <pin polarity="Output" x="480" y="-1120" name="FETCH_S" />
+    <pin polarity="Output" x="480" y="-1056" name="DECODE_S" />
+    <pin polarity="Output" x="480" y="-992" name="ALU_S" />
+    <pin polarity="Output" x="480" y="-928" name="TESTI_S" />
+    <pin polarity="Output" x="480" y="-864" name="ALUI_S" />
+    <pin polarity="Output" x="480" y="-800" name="SHIFT_S" />
+    <pin polarity="Output" x="480" y="-736" name="ADRCOMP_S" />
+    <pin polarity="Output" x="480" y="-672" name="LOAD_S" />
+    <pin polarity="Output" x="480" y="-608" name="STORE_S" />
+    <pin polarity="Output" x="480" y="-544" name="COPYMDR2C_S" />
+    <pin polarity="Output" x="480" y="-480" name="COPYGPR2MDR_S" />
+    <pin polarity="Output" x="480" y="-416" name="WBR_S" />
+    <pin polarity="Output" x="480" y="-352" name="WBI_S" />
+    <pin polarity="Output" x="480" y="-288" name="BRANCH_S" />
+    <pin polarity="Output" x="480" y="-224" name="B_TAKEN_S" />
+    <pin polarity="Output" x="480" y="-160" name="JR_S" />
+    <pin polarity="Output" x="480" y="-96" name="SAVE_PC_S" />
+    <pin polarity="Output" x="480" y="32" name="JALR_S" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="240" y="-1160" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1120" type="pin Control(4:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-1120" type="pin FETCH_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-1056" type="pin DECODE_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-992" type="pin ALU_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-928" type="pin TESTI_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-864" type="pin ALUI_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-800" type="pin SHIFT_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-736" type="pin ADRCOMP_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-672" type="pin LOAD_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-608" type="pin STORE_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-544" type="pin COPYMDR2C_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-480" type="pin COPYGPR2MDR_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-416" type="pin WBR_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-352" type="pin WBI_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-288" type="pin BRANCH_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-224" type="pin B_TAKEN_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-160" type="pin JR_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-96" type="pin SAVE_PC_S" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="32" type="pin JALR_S" />
+        <line x2="480" y1="32" y2="32" x1="416" />
+        <rect width="64" x="0" y="-1132" height="24" />
+        <line x2="0" y1="-1120" y2="-1120" x1="64" />
+        <line x2="480" y1="-1120" y2="-1120" x1="416" />
+        <line x2="480" y1="-1056" y2="-1056" x1="416" />
+        <line x2="480" y1="-992" y2="-992" x1="416" />
+        <line x2="480" y1="-928" y2="-928" x1="416" />
+        <line x2="480" y1="-864" y2="-864" x1="416" />
+        <line x2="480" y1="-800" y2="-800" x1="416" />
+        <line x2="480" y1="-736" y2="-736" x1="416" />
+        <line x2="480" y1="-672" y2="-672" x1="416" />
+        <line x2="480" y1="-608" y2="-608" x1="416" />
+        <line x2="480" y1="-544" y2="-544" x1="416" />
+        <line x2="480" y1="-480" y2="-480" x1="416" />
+        <line x2="480" y1="-416" y2="-416" x1="416" />
+        <line x2="480" y1="-352" y2="-352" x1="416" />
+        <line x2="480" y1="-288" y2="-288" x1="416" />
+        <line x2="480" y1="-224" y2="-224" x1="416" />
+        <line x2="480" y1="-160" y2="-160" x1="416" />
+        <line x2="480" y1="-96" y2="-96" x1="416" />
+        <rect width="352" x="64" y="-1152" height="1344" />
+    </graph>
+</symbol>

@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl tempsch_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/test/Home_S25/Home_S25/tempsch.sch 
+sch2sym -intstyle ise -family spartan6 -refsym tempsch E:/adlx/Semester_B/Nizar_ReaalAA/test/Home_S25/Home_S25/tempsch.sch E:/adlx/Semester_B/Nizar_ReaalAA/test/Home_S25/Home_S25/tempsch.sym 

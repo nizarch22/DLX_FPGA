@@ -1,0 +1,5 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym ALU_Env E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/ALU_Env.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/ALU_Env.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl ALU_Env_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/ALU_Env.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym ALU_Env E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/ALU_Env.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/ALU_Env.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym ALU_Env E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/ALU_Env.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/ALU_Env.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym ALU_Env E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/ALU_Env.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source/SOURCE_S25/ALU_Env.sym 

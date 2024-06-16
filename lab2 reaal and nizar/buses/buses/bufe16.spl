@@ -1,0 +1,6 @@
+[Inputs]
+Enable
+=D_IN[15:0]=
+[Outputs]
+=D_OUT[15:0]=
+[BiDir]

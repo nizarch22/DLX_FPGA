@@ -1,0 +1,1 @@
+vhdtdtfi -lib work Register.vhd -prj buses -o Register.spl -module Register -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 

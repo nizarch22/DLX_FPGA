@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/adlx/Semester_B/decoder_v25/decoder_v25/CNT_12_isim_beh.exe" -prj "E:/adlx/Semester_B/decoder_v25/decoder_v25/CNT_12_beh.prj" "work.CNT_12" 

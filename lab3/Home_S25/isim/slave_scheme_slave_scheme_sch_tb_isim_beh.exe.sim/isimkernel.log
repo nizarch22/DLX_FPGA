@@ -1,0 +1,29 @@
+Command line:
+   slave_scheme_slave_scheme_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60600
+
+Thu Apr 27 14:00:17 2023
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5150.53 Meg
+
+ Total Signals          : 89
+ Total Nets             : 214
+ Total Signal Drivers   : 20
+ Total Blocks           : 17
+ Total Primitive Blocks : 15
+ Total Processes        : 15
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 718
+Total Line Count : 31
+
+ Total Simulation Time: 0.578125 sec
+
+ Current Memory Usage: 5150.53 Meg
+
+Thu Apr 27 14:08:37 2023
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing version="7">
+    <attr value="spartan3" name="DeviceFamilyName">
+        <trait delete="all:0" />
+        <trait editname="all:0" />
+        <trait edittrait="all:0" />
+    </attr>
+    <netlist>
+        <signal name="A(31:0)" />
+        <signal name="AO(31:0)" />
+        <signal name="DO(31:0)" />
+        <signal name="DI(31:0)" />
+        <signal name="clk" />
+        <signal name="rd_req" />
+        <signal name="wr_req" />
+        <signal name="DONE" />
+        <signal name="busy" />
+        <signal name="D(31:0)" />
+        <signal name="WR_N" />
+        <signal name="in_init" />
+        <signal name="AS_N" />
+        <signal name="ACK_N" />
+        <port polarity="Output" name="A(31:0)" />
+        <port polarity="Input" name="AO(31:0)" />
+        <port polarity="Input" name="DO(31:0)" />
+        <port polarity="Output" name="DI(31:0)" />
+        <port polarity="Input" name="clk" />
+        <port polarity="Input" name="rd_req" />
+        <port polarity="Input" name="wr_req" />
+        <port polarity="Output" name="DONE" />
+        <port polarity="Input" name="busy" />
+        <port polarity="BiDirectional" name="D(31:0)" />
+        <port polarity="Output" name="WR_N" />
+        <port polarity="Output" name="in_init" />
+        <port polarity="Output" name="AS_N" />
+        <port polarity="Input" name="ACK_N" />
+    </netlist>
+    <sheet sheetnum="1" width="3520" height="2720">
+        <branch name="A(31:0)">
+            <wire x2="3104" y1="320" y2="320" x1="2896" />
+        </branch>
+        <branch name="AO(31:0)">
+            <wire x2="656" y1="288" y2="288" x1="432" />
+        </branch>
+        <iomarker fontsize="28" x="432" y="288" name="AO(31:0)" orien="R180" />
+        <iomarker fontsize="28" x="3104" y="320" name="A(31:0)" orien="R0" />
+        <branch name="DO(31:0)">
+            <wire x2="656" y1="368" y2="368" x1="448" />
+        </branch>
+        <iomarker fontsize="28" x="448" y="368" name="DO(31:0)" orien="R180" />
+        <branch name="DI(31:0)">
+            <wire x2="656" y1="464" y2="464" x1="432" />
+        </branch>
+        <iomarker fontsize="28" x="432" y="464" name="DI(31:0)" orien="R180" />
+        <branch name="clk">
+            <wire x2="656" y1="656" y2="656" x1="400" />
+        </branch>
+        <iomarker fontsize="28" x="400" y="656" name="clk" orien="R180" />
+        <branch name="wr_req">
+            <wire x2="656" y1="816" y2="816" x1="448" />
+        </branch>
+        <iomarker fontsize="28" x="448" y="816" name="wr_req" orien="R180" />
+        <iomarker fontsize="28" x="448" y="736" name="rd_req" orien="R180" />
+        <branch name="rd_req">
+            <wire x2="656" y1="736" y2="736" x1="448" />
+        </branch>
+        <branch name="DONE">
+            <wire x2="656" y1="912" y2="912" x1="464" />
+        </branch>
+        <iomarker fontsize="28" x="464" y="912" name="DONE" orien="R180" />
+        <branch name="busy">
+            <wire x2="656" y1="992" y2="992" x1="464" />
+        </branch>
+        <iomarker fontsize="28" x="464" y="992" name="busy" orien="R180" />
+        <branch name="D(31:0)">
+            <wire x2="3104" y1="400" y2="400" x1="2896" />
+        </branch>
+        <iomarker fontsize="28" x="3104" y="400" name="D(31:0)" orien="R0" />
+        <branch name="WR_N">
+            <wire x2="3104" y1="560" y2="560" x1="2896" />
+        </branch>
+        <branch name="in_init">
+            <wire x2="3104" y1="480" y2="480" x1="2896" />
+        </branch>
+        <iomarker fontsize="28" x="3104" y="560" name="WR_N" orien="R0" />
+        <iomarker fontsize="28" x="3104" y="480" name="in_init" orien="R0" />
+        <branch name="AS_N">
+            <wire x2="3104" y1="640" y2="640" x1="2896" />
+        </branch>
+        <iomarker fontsize="28" x="3104" y="640" name="AS_N" orien="R0" />
+        <branch name="ACK_N">
+            <wire x2="3072" y1="720" y2="720" x1="2896" />
+        </branch>
+        <iomarker fontsize="28" x="3072" y="720" name="ACK_N" orien="R0" />
+    </sheet>
+</drawing>

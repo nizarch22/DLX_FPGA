@@ -1,0 +1,1 @@
+sch2hdl -intstyle ise -family spartan3 -flat -suppress -vhdl bus_inf_drc.vhf -w D:/projects/a_dlx/buses/bus_inf.sch 

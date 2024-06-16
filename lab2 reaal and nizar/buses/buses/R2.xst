@@ -1,0 +1,5 @@
+set -tmpdir "E:/adlx/Semester_B/lab2 reaal and nizar/buses/buses/xst/projnav.tmp"
+set -xsthdpdir "E:/adlx/Semester_B/lab2 reaal and nizar/buses/buses/xst"
+elaborate
+-ifn R2.prj
+-ifmt mixed

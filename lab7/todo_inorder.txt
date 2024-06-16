@@ -1,0 +1,46 @@
+alu: - later
+If sub: CI='1', else CI='0'
+gpr
+PC
+
+
+control
+- Need to add control module and 'bt' signal
+- redo state machine's state process according to 7.4.1 table (2015 notes):X
+
+DATAPATH:
+
+*simple:
+IR: zerofy ir_imm->imm - create zero32 and repurpose for S2MUX A2 and IR
+missing shift env
+s2mux A2 and A3 need to be 00000000 and 00000001
+
+
+*hard:
+ALUF0,F1,F2 are unknownn
+some of the RTL instructions like SAVE_PC etc.
+ALU
+should PC be 16 bits or 32 bits? - PC=R(RS1) that's why I think it's 32 bits, but input to ALU is 16. So?
+
+*done:
+shift_right but only during SHIFT doesn't make sense. How do we shift left?:x
+connect all selects:x
+figure out gpr inputs (r-type and itype):x
+SEL_PC under OTHER SIGNALS:x
+IR was changed - needs to be updated:x
+PC was changed - needs to be updated:x
++ define AEQZ in datapath, and then bt = XOR(AEQZ, IR[26]) - put under OTHER SIGNALS out of GPR in DATAPATH:x
+
+
+
+
+
+Note for PC: to add to PC (in beqz or other branches during B_TAKEN): 
+S1SEL=00
+S2SEL=01
+DINTSEL=0
+then PC:=R(RS1)+PC+1 where PC_CE=1
+does this happen? Or do we need an ADDER inside PC? YES! this does happen! We can make sure by confirming the values above
+for state of BTAKEN. 
+
+We do not need an ADDER.

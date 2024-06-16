@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym ALU E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ALU.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ALU.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl ALU_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ALU.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl ALU_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ALU.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym ALU E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ALU.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ALU.sym 

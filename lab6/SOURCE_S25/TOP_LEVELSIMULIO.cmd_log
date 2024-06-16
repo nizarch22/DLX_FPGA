@@ -1,0 +1,7 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl TOP_LEVELSIMULIO_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl TOP_LEVELSIMULIO_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl TOP_LEVELSIMULIO_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl TOP_LEVELSIMULIO_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym TOP_LEVELSIMULIO E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl TOP_LEVELSIMULIO_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl TOP_LEVELSIMULIO_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO.sch 

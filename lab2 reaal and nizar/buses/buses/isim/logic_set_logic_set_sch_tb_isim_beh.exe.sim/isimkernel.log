@@ -1,0 +1,29 @@
+Command line:
+   logic_set_logic_set_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58640
+
+Mon Apr 24 16:57:03 2023
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5179.72 Meg
+
+ Total Signals          : 455
+ Total Nets             : 33274
+ Total Signal Drivers   : 129
+ Total Blocks           : 111
+ Total Primitive Blocks : 98
+ Total Processes        : 119
+ Total Traceable Variables  : 45
+ Total Scalar Nets and Variables : 34308
+Total Line Count : 198
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 5212.88 Meg
+
+Mon Apr 24 17:03:41 2023
+

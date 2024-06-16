@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/projects/a_dlx/buses/logic_set_logic_set_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="logic_set_logic_set_sch_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="sram_data" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/readd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readd[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/sts" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sts[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sts[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/step_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">step_en</obj_property>
+      <obj_property name="ObjectShortName">step_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/w_instr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">w_instr</obj_property>
+      <obj_property name="ObjectShortName">w_instr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/r_instr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_instr</obj_property>
+      <obj_property name="ObjectShortName">r_instr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/operation" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">operation[1:0]</obj_property>
+      <obj_property name="ObjectShortName">operation[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/UUT/BUF_INFi/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/UUT/BUF_INFi/rd_req" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_req</obj_property>
+      <obj_property name="ObjectShortName">rd_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/UUT/BUF_INFi/wr_req" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_req</obj_property>
+      <obj_property name="ObjectShortName">wr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/logic_set_logic_set_sch_tb/UUT/BUF_INFi/done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+</wave_config>

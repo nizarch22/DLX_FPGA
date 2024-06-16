@@ -1,0 +1,7 @@
+vhdl work "REG32CE.vhd"
+vhdl work "RAM32X32S.vhd"
+vhdl work "MUX5BIT.vhd"
+vhdl work "CNT5.vhd"
+vhdl work "BUF8.vhd"
+vhdl work "model_monitor_1.vhf"
+vhdl work "tb_model_monitor1.vhd"

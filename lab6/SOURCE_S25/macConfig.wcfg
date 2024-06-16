@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Control_MAC_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="control_mac" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/control_mac/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_mac/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_mac/ack_n_io" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ack_n_io</obj_property>
+      <obj_property name="ObjectShortName">ack_n_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_mac/mr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mr</obj_property>
+      <obj_property name="ObjectShortName">mr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_mac/mw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mw</obj_property>
+      <obj_property name="ObjectShortName">mw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_mac/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_mac/as_n_io" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">as_n_io</obj_property>
+      <obj_property name="ObjectShortName">as_n_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_mac/wr_n_io" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_n_io</obj_property>
+      <obj_property name="ObjectShortName">wr_n_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_mac/state_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_o[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_mac/uut/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+</wave_config>

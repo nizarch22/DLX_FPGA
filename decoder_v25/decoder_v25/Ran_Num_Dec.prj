@@ -1,0 +1,4 @@
+vhdl work "Random_gen.vhd"
+vhdl work "Comparator.vhd"
+vhdl work "CNT_12.vhd"
+vhdl work "Ran_Num_Dec.vhf"

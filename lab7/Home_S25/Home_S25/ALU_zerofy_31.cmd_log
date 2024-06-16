@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ALU_zerofy_31.vhd -prj Home_V14_S25 -o ALU_zerofy_31.spl -module ALU_zerofy_31 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ALU_zerofy_31.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ALU_zerofy_31.sym 

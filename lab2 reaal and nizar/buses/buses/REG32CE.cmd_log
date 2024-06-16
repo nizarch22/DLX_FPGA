@@ -1,0 +1,2 @@
+vhdtdtfi -lib work REG32CE.vhd -prj buses -o REG32CE.spl -module REG32CE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 -w REG32CE.spl {E:/adlx/Semester_B/lab2 reaal and nizar/buses/buses/REG32CE.sym} 

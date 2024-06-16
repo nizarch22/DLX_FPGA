@@ -1,0 +1,16 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IR_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch 
+sch2sym -intstyle ise -family spartan6 -refsym IR E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IR_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch 
+sch2sym -intstyle ise -family spartan6 -refsym IR E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IR_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch 
+sch2sym -intstyle ise -family spartan6 -refsym IR E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sym 
+sch2sym -intstyle ise -family spartan6 -refsym IR E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IR_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch 
+sch2sym -intstyle ise -family spartan6 -refsym IR E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IR_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IR_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IR_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IR_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch 
+sch2sym -intstyle ise -family spartan6 -refsym IR E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IR_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch 
+sch2sym -intstyle ise -family spartan6 -refsym IR E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.sym 

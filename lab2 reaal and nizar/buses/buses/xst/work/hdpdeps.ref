@@ -1,0 +1,38 @@
+V3 22
+FL D:/a_dlx10/Marko/buses/cpu.vhd 2014/11/06.13:09:55 P.20131013
+EN work/cpu 1415272426 FL D:/a_dlx10/Marko/buses/cpu.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/std_logic_arith 1335251623 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/cpu/Behavioral 1415272427 \
+      FL D:/a_dlx10/Marko/buses/cpu.vhd EN work/cpu 1415272426
+FL D:/projects/a_dlx/buses/bufe16.vhd 2012/07/03.11:16:01 P.20131013
+EN work/bufe16 1341311098 FL D:/projects/a_dlx/buses/bufe16.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR work/bufe16/Behavioral 1341311099 \
+      FL D:/projects/a_dlx/buses/bufe16.vhd EN work/bufe16 1341311098
+FL D:/projects/a_dlx/buses/cpu.vhd 2012/07/03.16:26:22 P.20131013
+FL D:/projects/a_dlx/buses/read_t.vhd 2012/07/03.14:01:15 P.20131013
+EN work/logic_set_logic_set_sch_tb 1341311094 \
+      FL D:/projects/a_dlx/buses/read_t.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/NUMERIC_STD 1335251627 LB UNISIM PH unisim/VCOMPONENTS 1335251629
+AR work/logic_set_logic_set_sch_tb/behavioral 1341311095 \
+      FL D:/projects/a_dlx/buses/read_t.vhd EN work/logic_set_logic_set_sch_tb 1341311094 \
+      CP logic_set
+FL D:/projects/a_dlx/buses/SRAM.VHD 2009/08/11.16:56:58 P.20131013
+EN work/sram 1341311100 FL D:/projects/a_dlx/buses/SRAM.VHD PB ieee/std_logic_1164 1335251622 \
+      PB ieee/std_logic_arith 1335251623 PB ieee/STD_LOGIC_UNSIGNED 1335251625 \
+      PB ieee/NUMERIC_STD 1335251627 PB work/sram_data 1341312505
+AR work/sram/Behavioral 1341311101 \
+      FL D:/projects/a_dlx/buses/SRAM.VHD EN work/sram 1341311100
+FL D:/projects/a_dlx/buses/sram_data.vhd 2012/03/05.14:39:00 P.20131013
+PH work/sram_data 1341312504 FL D:/projects/a_dlx/buses/sram_data.vhd \
+      PB ieee/std_logic_1164 1335251622
+PB work/sram_data 1341312505 \
+      FL D:/projects/a_dlx/buses/sram_data.vhd PH work/sram_data 1341312504
+FL D:/projects/a_dlx/buses/write_t.vhd 2012/07/03.11:20:10 P.20131013
+FL "E:/adlx/Semester_B/lab2 reaal and nizar/buses/buses/Register.vhd" 2023/04/17.10:31:14 P.20131013
+EN work/R2 1681716725 \
+      FL "E:/adlx/Semester_B/lab2 reaal and nizar/buses/buses/Register.vhd" \
+      PB ieee/std_logic_1164 1335251622
+AR work/R2/Behavioral 1681716726 \
+      FL "E:/adlx/Semester_B/lab2 reaal and nizar/buses/buses/Register.vhd" \
+      EN work/R2 1681716725

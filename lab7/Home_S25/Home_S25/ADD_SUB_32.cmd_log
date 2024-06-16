@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl ADD_SUB_32_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ADD_SUB_32.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl ADD_SUB_32_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ADD_SUB_32.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl ADD_SUB_32_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ADD_SUB_32.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym ADD_SUB_32 E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ADD_SUB_32.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/ADD_SUB_32.sym 

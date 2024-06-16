@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/cpu_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/cpu/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/step_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">step_en</obj_property>
+      <obj_property name="ObjectShortName">step_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/readd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/sts" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sts[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sts[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/ao" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ao[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ao[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/do" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">do[31:0]</obj_property>
+      <obj_property name="ObjectShortName">do[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/di" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">di[31:0]</obj_property>
+      <obj_property name="ObjectShortName">di[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rd_req" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_req</obj_property>
+      <obj_property name="ObjectShortName">rd_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/wr_req" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_req</obj_property>
+      <obj_property name="ObjectShortName">wr_req</obj_property>
+   </wvobject>
+</wave_config>

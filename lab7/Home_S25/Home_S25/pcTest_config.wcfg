@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="sram_data" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="top_level_iosimul_top_level_iosimul_sch_tb" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/top_level_iosimul_top_level_iosimul_sch_tb/UUT/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_iosimul_top_level_iosimul_sch_tb/UUT/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_iosimul_top_level_iosimul_sch_tb/UUT/step_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">step_en</obj_property>
+      <obj_property name="ObjectShortName">step_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_iosimul_top_level_iosimul_sch_tb/UUT/XLXI_6/init" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">init</obj_property>
+      <obj_property name="ObjectShortName">init</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_iosimul_top_level_iosimul_sch_tb/UUT/XLXI_6/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_iosimul_top_level_iosimul_sch_tb/UUT/XLXI_6/XLXI_1/XLXI_16/XLXI_14/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_iosimul_top_level_iosimul_sch_tb/UUT/XLXI_6/XLXI_1/XLXI_16/XLXI_14/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_iosimul_top_level_iosimul_sch_tb/UUT/XLXI_6/XLXI_1/XLXI_16/XLXI_14/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_iosimul_top_level_iosimul_sch_tb/UUT/XLXI_6/XLXI_1/XLXI_16/XLXI_14/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_iosimul_top_level_iosimul_sch_tb/UUT/XLXI_6/XLXI_1/XLXI_16/XLXI_14/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+</wave_config>

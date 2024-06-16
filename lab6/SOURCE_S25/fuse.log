@@ -1,0 +1,83 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO_TOP_LEVELSIMULIO_sch_tb_isim_beh.exe -prj E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO_TOP_LEVELSIMULIO_sch_tb_beh.prj work.TOP_LEVELSIMULIO_TOP_LEVELSIMULIO_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/REG32CE.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/RAM32X32S.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/MUX_16.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/MUX5BIT.VHD" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/CNT16.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/BUF6.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/BUF5.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/../Home_S25/Home_S25/BUF16.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Zero_map_15b.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/sram_data.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Program_Counter.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/MAC.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IR.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/GPR.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/DLX_State_Mapper.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/DLX_STATE_MACHINE.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/SRAM.VHD" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/DLX_Control_Module.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/BUF3.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/IO_SIMUL.VHD" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/rtl_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package sram_data
+Compiling architecture behavioral of entity sram [\sram(1024,10)\]
+Compiling architecture behavioral of entity IO_SIMUL [io_simul_default]
+Compiling architecture behavioral of entity MAC [mac_default]
+Compiling architecture behavioral of entity DLX_STATE_MACHINE [dlx_state_machine_default]
+Compiling architecture behavioral of entity DLX_Control_Module_MUSER_TOP_LEVELSIMULIO [dlx_control_module_muser_top_lev...]
+Compiling architecture buf_v of entity BUF [buf_default]
+Compiling architecture behavioral of entity BUF3 [buf3_default]
+Compiling architecture behavioral of entity REG32CE [reg32ce_default]
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ram32x1s_v of entity RAM32X1S [\RAM32X1S("000000000000000000000...]
+Compiling architecture behavioral of entity RAM32X8S_MXILINX_slave_monitor [ram32x8s_mxilinx_slave_monitor_d...]
+Compiling architecture behavioral of entity RAM32X32S [ram32x32s_default]
+Compiling architecture behavioral of entity mux5bit [mux5bit_default]
+Compiling architecture or5_v of entity OR5 [or5_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture behavioral of entity GPR_MUSER_TOP_LEVELSIMULIO [gpr_muser_top_levelsimulio_defau...]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture behavioral of entity CNT16 [cnt16_default]
+Compiling architecture behavioral of entity Program_Counter_MUSER_TOP_LEVELSIMULIO [program_counter_muser_top_levels...]
+Compiling architecture behavioral of entity MUX_16 [mux_16_default]
+Compiling architecture behavioral of entity Address_MUX_MUSER_TOP_LEVELSIMULIO [address_mux_muser_top_levelsimul...]
+Compiling architecture behavioral of entity BUF16 [buf16_default]
+Compiling architecture behavioral of entity BUF5_MUSER_TOP_LEVELSIMULIO [buf5_muser_top_levelsimulio_defa...]
+Compiling architecture behavioral of entity BUF6 [buf6_default]
+Compiling architecture behavioral of entity IR_MUSER_TOP_LEVELSIMULIO [ir_muser_top_levelsimulio_defaul...]
+Compiling architecture behavioral of entity DLX_State_Mapper [dlx_state_mapper_default]
+Compiling architecture or3_v of entity OR3 [or3_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture behavioral of entity Zero_map_16b [zero_map_16b_default]
+Compiling architecture behavioral of entity Data_Path_MUSER_TOP_LEVELSIMULIO [data_path_muser_top_levelsimulio...]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity Store_Load_Machine_MUSER_TOP_LEVELSIMULIO [store_load_machine_muser_top_lev...]
+Compiling architecture behavioral of entity TOP_LEVELSIMULIO [top_levelsimulio_default]
+Compiling architecture behavioral of entity top_levelsimulio_top_levelsimuli...
+Time Resolution for simulation is 1ps.
+Waiting for 29 sub-compilation(s) to finish...
+Compiled 78 VHDL Units
+Built simulation executable E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/TOP_LEVELSIMULIO_TOP_LEVELSIMULIO_sch_tb_isim_beh.exe
+Fuse Memory Usage: 62516 KB
+Fuse CPU Usage: 2656 ms

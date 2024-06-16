@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Control_LoadStore_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Control_LoadStore.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Control_LoadStore E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Control_LoadStore.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Control_LoadStore.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Control_LoadStore_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Control_LoadStore.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Control_LoadStore E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Control_LoadStore.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Control_LoadStore.sym 

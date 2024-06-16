@@ -1,0 +1,16 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Data_Path_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Data_Path_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Data_Path_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Data_Path E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Data_Path_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Data_Path E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Data_Path_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Data_Path E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Data_Path_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym Data_Path E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Data_Path E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Data_Path_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym Data_Path E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Data_Path_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym Data_Path E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Data_Path E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Data_Path.sym 

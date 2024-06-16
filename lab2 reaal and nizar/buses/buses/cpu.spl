@@ -1,0 +1,17 @@
+[Inputs]
+RESET
+CLK
+step_en
+R_instr
+W_instr
+DONE
+=DI[31:0]=
+[Outputs]
+busy
+rd_req
+wr_req
+=sts[3:0]=
+=READD[31:0]=
+=DO[31:0]=
+=AO[31:0]=
+[BiDir]

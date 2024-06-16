@@ -1,0 +1,9 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Program_Counter_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Program_Counter E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Program_Counter E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Program_Counter_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym Program_Counter E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Program_Counter E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Program_Counter E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Program_Counter E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Program_Counter E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/Program_Counter.sym 

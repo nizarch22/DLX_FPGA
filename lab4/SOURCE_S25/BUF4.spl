@@ -1,0 +1,5 @@
+[Inputs]
+=Din[3:0]=
+[Outputs]
+=Dout[3:0]=
+[BiDir]

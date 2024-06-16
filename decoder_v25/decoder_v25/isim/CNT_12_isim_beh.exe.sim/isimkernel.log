@@ -1,0 +1,10 @@
+Command line:
+   CNT_12_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56269
+
+Mon Apr 03 17:12:26 2023
+
+
+ Elaboration Time: 0.125 sec

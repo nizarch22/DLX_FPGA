@@ -1,0 +1,12 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Address_MUX_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Address_MUX E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Address_MUX_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Address_MUX E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Address_MUX_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Address_MUX_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Address_MUX_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Address_MUX E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sym 
+sch2sym -intstyle ise -family spartan6 -refsym Address_MUX E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Address_MUX_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Address_MUX E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sym 
+sch2sym -intstyle ise -family spartan6 -refsym Address_MUX E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Address_MUX.sym 

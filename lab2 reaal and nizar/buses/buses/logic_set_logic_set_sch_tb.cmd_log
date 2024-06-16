@@ -1,0 +1,2 @@
+vhdtdtfi -lib work sram_data.vhd -lib work SRAM.VHD -lib work bufe16.vhd -lib work cpu.vhd -lib work read_t.vhd -prj buses -o logic_set_logic_set_sch_tb.spl -module logic_set_logic_set_sch_tb -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 -w logic_set_logic_set_sch_tb.spl D:/projects/a_dlx/buses/logic_set_logic_set_sch_tb.sym 

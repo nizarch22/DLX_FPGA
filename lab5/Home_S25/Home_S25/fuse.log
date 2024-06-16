@@ -1,0 +1,35 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/adlx/Semester_B/Nizar_ReaalAA/lab5/Home_S25/Home_S25/Write_Machine_Write_Machine_sch_tb_isim_beh.exe -prj E:/adlx/Semester_B/Nizar_ReaalAA/lab5/Home_S25/Home_S25/Write_Machine_Write_Machine_sch_tb_beh.prj work.Write_Machine_Write_Machine_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab5/Home_S25/Home_S25/Write_State_Machine.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab5/Home_S25/Home_S25/ID_NUM.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab5/Home_S25/Home_S25/CNT32.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab5/Home_S25/Home_S25/BUF8.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab5/Home_S25/Home_S25/Write_Machine.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab5/Home_S25/Home_S25/tb_Write_Machine.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity CNT32 [cnt32_default]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture or3_v of entity OR3 [or3_default]
+Compiling architecture behavioral of entity Write_State_Machine [write_state_machine_default]
+Compiling architecture behavioral of entity ID_NUM [id_num_default]
+Compiling architecture behavioral of entity BUF8 [buf8_default]
+Compiling architecture behavioral of entity Write_Machine [write_machine_default]
+Compiling architecture behavioral of entity write_machine_write_machine_sch_...
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 25 VHDL Units
+Built simulation executable E:/adlx/Semester_B/Nizar_ReaalAA/lab5/Home_S25/Home_S25/Write_Machine_Write_Machine_sch_tb_isim_beh.exe
+Fuse Memory Usage: 51508 KB
+Fuse CPU Usage: 1374 ms

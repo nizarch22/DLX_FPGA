@@ -1,0 +1,13 @@
+[Inputs]
+clk
+reset
+step_en
+busy
+bt
+=opcode[5:0]=
+=func[5:0]=
+[Outputs]
+mr
+mw
+=state_out[4:0]=
+[BiDir]

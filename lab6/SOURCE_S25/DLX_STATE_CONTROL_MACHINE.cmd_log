@@ -1,0 +1,1 @@
+vhdtdtfi -prj SOURCE_S25 -o E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/DLX_STATE_CONTROL_MACHINE.vhi -module DLX_STATE_CONTROL_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work DLX_STATE_CONTROL_MACHINE.vhd 

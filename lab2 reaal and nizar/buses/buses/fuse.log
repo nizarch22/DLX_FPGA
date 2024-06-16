@@ -1,0 +1,62 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/logic_set_logic_set_sch_tb_isim_beh.exe -prj E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/logic_set_logic_set_sch_tb_beh.prj work.logic_set_logic_set_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/sram_data.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/SRAM.VHD" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/buf16.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/REG32CE.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/ram_set.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/bufe16.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/buf32.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/slave_set.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/cpu.vhd" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/bus_inf.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/logic_set.vhf" into library work
+Parsing VHDL file "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/buses_t.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity REG32CE [reg32ce_default]
+Compiling architecture behavioral of entity bufe16 [bufe16_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture fdc_v of entity FDC [\FDC('0')\]
+Compiling architecture and3b2_v of entity AND3B2 [and3b2_default]
+Compiling architecture and3b1_v of entity AND3B1 [and3b1_default]
+Compiling architecture or3_v of entity OR3 [or3_default]
+Compiling architecture and2b1_v of entity AND2B1 [and2b1_default]
+Compiling architecture behavioral of entity FJKC_MXILINX_logic_set [\FJKC_MXILINX_logic_set('0')\]
+Compiling architecture nor2_v of entity NOR2 [nor2_default]
+Compiling architecture buf_v of entity BUF [buf_default]
+Compiling architecture behavioral of entity bus_inf_MUSER_logic_set [bus_inf_muser_logic_set_default]
+Compiling architecture behavioral of entity cpu [cpu_default]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture nand2b1_v of entity NAND2B1 [nand2b1_default]
+Compiling architecture behavioral of entity buf16_MUSER_logic_set [buf16_muser_logic_set_default]
+Compiling architecture behavioral of entity buf32_MUSER_logic_set [buf32_muser_logic_set_default]
+Compiling architecture or4_v of entity OR4 [or4_default]
+Compiling architecture fmap_v of entity FMAP [fmap_default]
+Compiling architecture behavioral of entity OR6_MXILINX_logic_set [or6_mxilinx_logic_set_default]
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture behavioral of entity FTC_MXILINX_logic_set [\FTC_MXILINX_logic_set('0')\]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling package sram_data
+Compiling architecture behavioral of entity sram [\sram(1024,10)\]
+Compiling architecture behavioral of entity ram_set_MUSER_logic_set [ram_set_muser_logic_set_default]
+Compiling architecture behavioral of entity slave_set_MUSER_logic_set [slave_set_muser_logic_set_defaul...]
+Compiling architecture behavioral of entity logic_set [logic_set_default]
+Compiling architecture behavioral of entity logic_set_logic_set_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 66 VHDL Units
+Built simulation executable E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/logic_set_logic_set_sch_tb_isim_beh.exe
+Fuse Memory Usage: 53356 KB
+Fuse CPU Usage: 2311 ms

@@ -1,0 +1,4 @@
+vhdl work "MUX4_32bit.vhd"
+vhdl work "BUF5.vhd"
+vhdl work "slave_scheme.vhf"
+vhdl work "slave_t.vhd"

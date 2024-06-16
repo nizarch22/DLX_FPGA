@@ -1,0 +1,5 @@
+vhdl work "D:\projects\a_dlx\buses\sram_data.vhd"
+vhdl work "D:\projects\a_dlx\buses\SRAM.VHD"
+vhdl work "D:\projects\a_dlx\buses\bufe16.vhd"
+vhdl work "D:\projects\a_dlx\buses\cpu.vhd"
+vhdl work "D:\projects\a_dlx\buses\read_t.vhd"

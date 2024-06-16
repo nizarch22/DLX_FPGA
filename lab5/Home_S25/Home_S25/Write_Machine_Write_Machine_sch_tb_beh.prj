@@ -1,0 +1,6 @@
+vhdl work "Write_State_Machine.vhd"
+vhdl work "ID_NUM.vhd"
+vhdl work "CNT32.vhd"
+vhdl work "BUF8.vhd"
+vhdl work "Write_Machine.vhf"
+vhdl work "tb_Write_Machine.vhd"

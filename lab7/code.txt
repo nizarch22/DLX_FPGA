@@ -1,0 +1,59 @@
+# memory loading - R5=-1, then Mem[0xabc] = -1
+lw R5 R0 data1
+sw R5 R0 0xabc
+
+# addi: R5=1
+addi R5 R5 0x2
+
+#shifting - R2:2->4->2->1
+addi R1 R0 0x1
+
+slli R2 R1 #left shift of R1
+seqi R3 R2 0x2
+
+slli R2 R2 #left shift of R2
+seqi R3 R2 0x4
+
+srli R2 R2 #right shift of R2
+seqi R3 R2 0x2
+
+srli R2 R2 #right shift of R2
+seqi R3 R2 0x1
+
+#alu: R4 should remain 1 here.
+addi R1 R0 0x7
+addi R2 R0 0xf
+
+add R3 R1 R2
+seqi R4 R3 0x16
+
+sub R3 R1 R2
+seqi R4 R2 0xfff8
+
+and R3 R1 R2
+seqi R4 R2 0x7
+
+or  R3 R1 R2
+seqi R4 R2 0xf
+
+xor R3 R1 R2
+seqi R4 R2 0x8
+
+#branches
+addi R1 R0 0x10 
+loop:
+	addi R1 R1 0xffff
+	bnez R1 0xfffe
+addi R1 R0 0x1
+jalr R1 
+jr end #replace 'end' with number
+
+testi:
+	#test all sreli
+	jr R31
+end:
+	halt
+	
+	
+
+data1: 0xffff

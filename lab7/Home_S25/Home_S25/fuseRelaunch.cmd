@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb_isim_beh.exe" -prj "E:/adlx/Semester_B/Nizar_ReaalAA/lab7/Home_S25/Home_S25/TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb_beh.prj" "work.TOP_LEVEL_IOSIMUL_TOP_LEVEL_IOSIMUL_sch_tb" 

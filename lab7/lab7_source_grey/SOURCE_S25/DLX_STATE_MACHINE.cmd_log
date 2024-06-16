@@ -1,0 +1,24 @@
+vhdtdtfi -lib work DLX_STATE_MACHINE.vhd -prj SOURCE_S25 -o DLX_STATE_MACHINE.spl -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_STATE_MACHINE.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.sym 
+vhdtdtfi -lib work DLX_STATE_MACHINE.vhd -prj SOURCE_S25 -o DLX_STATE_MACHINE.spl -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_STATE_MACHINE.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.sym 
+vhdtdtfi -lib work DLX_STATE_MACHINE.vhd -prj SOURCE_S25 -o DLX_STATE_MACHINE.spl -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_STATE_MACHINE.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.sym 
+vhdtdtfi -lib work DLX_STATE_MACHINE.vhd -prj SOURCE_S25 -o DLX_STATE_MACHINE.spl -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_STATE_MACHINE.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.sym 
+vhdtdtfi -prj SOURCE_S25 -o E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.vhi -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work DLX_STATE_MACHINE.vhd 
+vhdtdtfi -prj SOURCE_S25 -o E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.vhi -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work DLX_STATE_MACHINE.vhd 
+vhdtdtfi -lib work DLX_STATE_MACHINE.vhd -prj SOURCE_S25 -o DLX_STATE_MACHINE.spl -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_STATE_MACHINE.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.sym 
+vhdtdtfi -lib work DLX_STATE_MACHINE.vhd -prj SOURCE_S25 -o DLX_STATE_MACHINE.spl -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_STATE_MACHINE.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.sym 
+vhdtdtfi -lib work DLX_STATE_MACHINE.vhd -prj SOURCE_S25 -o DLX_STATE_MACHINE.spl -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_STATE_MACHINE.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.sym 
+vhdtdtfi -lib work DLX_STATE_MACHINE.vhd -prj SOURCE_S25 -o DLX_STATE_MACHINE.spl -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_STATE_MACHINE.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.sym 
+vhdtdtfi -lib work DLX_STATE_MACHINE.vhd -prj SOURCE_S25 -o DLX_STATE_MACHINE.spl -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_STATE_MACHINE.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.sym 
+vhdtdtfi -lib work DLX_STATE_MACHINE.vhd -prj SOURCE_S25 -o DLX_STATE_MACHINE.spl -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_STATE_MACHINE.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.sym 
+vhdtdtfi -lib work DLX_STATE_MACHINE.vhd -prj SOURCE_S25 -o DLX_STATE_MACHINE.spl -module DLX_STATE_MACHINE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_STATE_MACHINE.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7/lab7_source_grey/SOURCE_S25/DLX_STATE_MACHINE.sym 

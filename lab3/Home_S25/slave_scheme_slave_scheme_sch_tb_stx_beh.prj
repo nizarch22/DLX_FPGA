@@ -1,0 +1,4 @@
+vhdl isim_temp "MUX4_32bit.vhd"
+vhdl isim_temp "BUF5.vhd"
+vhdl isim_temp "slave_scheme.vhf"
+vhdl isim_temp "slave_t.vhd"

@@ -1,0 +1,5 @@
+vhdl isim_temp "REG32CE.vhd"
+vhdl isim_temp "Read_State_Machine.vhd"
+vhdl isim_temp "CNT32.vhd"
+vhdl isim_temp "Read_Machine.vhf"
+vhdl isim_temp "read_machine_tb.vhd"

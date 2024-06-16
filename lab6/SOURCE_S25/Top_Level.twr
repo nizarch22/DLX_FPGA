@@ -1,0 +1,126 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml Top_Level.twx Top_Level.ncd -o Top_Level.twr Top_Level.pcf
+-ucf SOURCE.ucf
+
+Design file:              Top_Level.ncd
+Physical constraint file: Top_Level.pcf
+Device,package,speed:     xc6slx25,ftg256,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock sdClkFb_i
+-------------+------------+------------+------------+------------+------------------+--------+
+             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source       | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+-------------+------------+------------+------------+------------+------------------+--------+
+sdData_io<0> |    2.193(R)|      SLOW  |   -0.763(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<1> |    1.524(R)|      SLOW  |   -0.299(R)|      SLOW  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<2> |    2.267(R)|      SLOW  |   -0.853(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<3> |    2.412(R)|      SLOW  |   -0.870(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<4> |    1.880(R)|      SLOW  |   -0.539(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<5> |    1.396(R)|      SLOW  |   -0.168(R)|      SLOW  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<6> |    2.586(R)|      SLOW  |   -1.020(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<7> |    2.080(R)|      SLOW  |   -0.734(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<8> |    2.257(R)|      SLOW  |   -0.824(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<9> |    2.399(R)|      SLOW  |   -0.870(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<10>|    2.026(R)|      SLOW  |   -0.719(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<11>|    1.923(R)|      SLOW  |   -0.576(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<12>|    2.239(R)|      SLOW  |   -0.747(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<13>|    1.978(R)|      SLOW  |   -0.693(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<14>|    2.097(R)|      SLOW  |   -0.749(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<15>|    2.242(R)|      SLOW  |   -0.794(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+-------------+------------+------------+------------+------------+------------------+--------+
+
+Clock fpgaClk_i to Pad
+------------+-----------------+------------+-----------------+------------+-------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                         | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)        | Phase  |
+------------+-----------------+------------+-----------------+------------+-------------------------+--------+
+sdClk_o     |        10.451(R)|      SLOW  |         4.058(R)|      FAST  |XLXI_23/u0/genClkN_s_BUFG|   0.000|
+            |        10.513(R)|      SLOW  |         4.124(R)|      FAST  |XLXI_23/u0/genClkP_s_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+-------------------------+--------+
+
+Clock sdClkFb_i to Pad
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+sdAddr_o<0>  |        11.156(R)|      SLOW  |         4.801(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<1>  |        11.156(R)|      SLOW  |         4.781(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<2>  |        10.148(R)|      SLOW  |         4.227(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<3>  |        10.208(R)|      SLOW  |         4.285(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<4>  |        12.433(R)|      SLOW  |         5.657(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<5>  |        12.088(R)|      SLOW  |         5.323(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<6>  |        11.939(R)|      SLOW  |         5.238(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<7>  |        11.657(R)|      SLOW  |         5.106(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<8>  |        10.220(R)|      SLOW  |         4.255(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<9>  |        10.282(R)|      SLOW  |         4.324(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<10> |        10.798(R)|      SLOW  |         4.583(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<11> |        11.721(R)|      SLOW  |         5.098(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdAddr_o<12> |         9.646(R)|      SLOW  |         3.863(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdCas_bo     |        11.073(R)|      SLOW  |         4.774(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdCke_o      |        10.343(R)|      SLOW  |         4.387(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<0> |        12.699(R)|      SLOW  |         4.559(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<1> |        12.944(R)|      SLOW  |         4.640(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<2> |        12.889(R)|      SLOW  |         4.601(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<3> |        12.741(R)|      SLOW  |         4.653(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<4> |        12.889(R)|      SLOW  |         4.762(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<5> |        12.741(R)|      SLOW  |         4.573(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<6> |        13.842(R)|      SLOW  |         4.997(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<7> |        13.727(R)|      SLOW  |         5.040(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<8> |        14.806(R)|      SLOW  |         4.711(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<9> |        13.189(R)|      SLOW  |         4.469(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<10>|        12.781(R)|      SLOW  |         4.361(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<11>|        12.781(R)|      SLOW  |         4.363(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<12>|        12.370(R)|      SLOW  |         4.257(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<13>|        12.615(R)|      SLOW  |         4.218(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<14>|        13.189(R)|      SLOW  |         4.496(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdData_io<15>|        14.824(R)|      SLOW  |         4.851(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdRas_bo     |         9.809(R)|      SLOW  |         4.083(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+sdWe_bo      |        12.136(R)|      SLOW  |         5.336(R)|      FAST  |sdClkFb_i_BUFGP   |   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock sdClkFb_i
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sdClkFb_i      |    7.552|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu May 25 16:41:00 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4615 MB
+
+
+

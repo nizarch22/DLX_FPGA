@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/adlx/Semester_B/Nizar_ReaalAA/lab4/Home_S25/Home_S25/model_monitor_1_model_monitor_1_sch_tb_isim_beh.exe" -prj "E:/adlx/Semester_B/Nizar_ReaalAA/lab4/Home_S25/Home_S25/model_monitor_1_model_monitor_1_sch_tb_beh.prj" "work.model_monitor_1_model_monitor_1_sch_tb" 

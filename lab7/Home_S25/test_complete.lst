@@ -1,0 +1,59 @@
+0x00000000: 0x8C050022	            	 lw R5 R0 data1
+0x00000001: 0xAC050ABC	            	 sw R5 R0 0xabc
+					            	 
+0x00000002: 0x2C051234	            	 addi R5 R0 0x1234
+					            	 
+0x00000003: 0x2C010001	            	 addi R1 R0 0x1
+					            	 
+0x00000004: 0x003F1000	            	 slli R2 R1
+0x00000005: 0x005F1000	            	 slli R2 R2 
+0x00000006: 0x005F1002	            	 srli R2 R2 
+0x00000007: 0x005F1002	            	 srli R2 R2 
+					            	 
+0x00000008: 0x2C010007	            	 addi R1 R0 0x7
+0x00000009: 0x2C02000F	            	 addi R2 R0 0xf
+0x0000000A: 0x00221823	            	 add R3 R1 R2
+0x0000000B: 0x00221822	            	 sub R3 R1 R2
+0x0000000C: 0x00221826	            	 and R3 R1 R2
+0x0000000D: 0x00221825	            	 or  R3 R1 R2
+0x0000000E: 0x00221824	            	 xor R3 R1 R2
+					            	 
+0x0000000F: 0x2C010002	            	 addi R1 R0 0x2
+					            	 
+0x00000010: 0x2C21FFFF	            	 addi R1 R1 0xffff
+0x00000011: 0x143FFFFE	            	 bnez R1 0xfffe
+					            	 
+0x00000012: 0x2C010001	            	 addi R1 R0 0x1
+0x00000013: 0x103F0004	            	 beqz R1 end
+0x00000014: 0x2C010019	            	 addi R1 R0 testi
+0x00000015: 0x5C3F5220	            	 jalr R1
+0x00000016: 0x2C010018	            	 addi R1 R0 end
+0x00000017: 0x583F8800	            	 jr R1
+					            	 
+0x00000018: 0xFFFF1200	end:        	 halt
+					            	 
+0x00000019: 0x2C01FFFF	testi:      	 addi R1 R0 0xffff
+0x0000001A: 0x2C020005	            	 	addi R2 R0 0x5
+					            	 
+0x0000001B: 0x7023FFFE	            	 	slti R3 R1 0xfffe
+					            	 
+0x0000001C: 0x6823FFFF	            	 	seqi R3 R1 0xffff
+					            	 
+0x0000001D: 0x64230001	            	 	sgti R3 R1 0x1
+					            	 
+0x0000001E: 0x78430005	            	 	slei R3 R2 0x5
+					            	 
+0x0000001F: 0x6C430004	            	 	sgei R3 R2 0x4
+					            	 
+0x00000020: 0x74430009	            	 	snei R3 R2 0x9
+					            	 
+0x00000021: 0x5BFF0000	            	 	jr R31
+					            	 
+					            	 
+0x00000022: 0x0000FFFF	data1:      	 dc 0xffff
+
+Label Report:
+end: 33 D: 27, 30
+testi: 35 D: 28
+data1: 53 D: 1
+*XML file date: Wed 20/6/2012 6:49:12

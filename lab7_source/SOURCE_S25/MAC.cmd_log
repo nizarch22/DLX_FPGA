@@ -1,0 +1,4 @@
+vhdtdtfi -lib work MAC.vhd -prj SOURCE_S25 -o MAC.spl -module MAC -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w MAC.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7_source/SOURCE_S25/MAC.sym 
+vhdtdtfi -lib work MAC.vhd -prj SOURCE_S25 -o MAC.spl -module MAC -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w MAC.spl E:/adlx/Semester_B/Nizar_ReaalAA/lab7_source/SOURCE_S25/MAC.sym 

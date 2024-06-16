@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/logic_set_logic_set_sch_tb_isim_beh.exe" -prj "E:/adlx/Semester_B/Nizar_ReaalAA/lab2 reaal and nizar/buses/buses/logic_set_logic_set_sch_tb_beh.prj" "work.logic_set_logic_set_sch_tb" 

@@ -1,0 +1,29 @@
+Command line:
+   tempsch_tempsch_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58077
+
+Mon Apr 24 10:19:43 2023
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5150.44 Meg
+
+ Total Signals          : 35
+ Total Nets             : 29
+ Total Signal Drivers   : 4
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 4
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 513
+Total Line Count : 10
+
+ Total Simulation Time: 0.328125 sec
+
+ Current Memory Usage: 5150.44 Meg
+
+Mon Apr 24 10:29:48 2023
+

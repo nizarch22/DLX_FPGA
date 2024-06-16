@@ -1,0 +1,31 @@
+Command line:
+   Ran_Num_Dec_Ran_Num_Dec_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60093
+
+Mon Mar 20 10:29:24 2023
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5150.54 Meg
+
+ Total Signals          : 76
+ Total Nets             : 116
+ Total Signal Drivers   : 17
+ Total Blocks           : 15
+ Total Primitive Blocks : 13
+ Total Processes        : 13
+ Total Traceable Variables  : 17
+ Total Scalar Nets and Variables : 650
+Total Line Count : 40
+Total Line Count : 40
+Total Line Count : 40
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 5150.54 Meg
+
+Mon Mar 20 10:38:38 2023
+

@@ -1,0 +1,15 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Store_Load_Machine_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Store_Load_Machine_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Store_Load_Machine_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Store_Load_Machine_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Store_Load_Machine E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Store_Load_Machine_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym Store_Load_Machine E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Store_Load_Machine_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym Store_Load_Machine E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Store_Load_Machine_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym Store_Load_Machine E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Store_Load_Machine E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Store_Load_Machine_drc.vhf -w E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym Store_Load_Machine E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Store_Load_Machine E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sch E:/adlx/Semester_B/Nizar_ReaalAA/lab6/SOURCE_S25/Store_Load_Machine.sym 

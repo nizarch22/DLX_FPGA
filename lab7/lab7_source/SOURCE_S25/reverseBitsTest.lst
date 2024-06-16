@@ -1,0 +1,52 @@
+0x00000000: 0x101F00FF	            	 beqz R0 revTest
+0x00000004: 0x1A1A1A1A	word_1:     	 dc 0x1a1a1a1a
+0x00000005: 0xF1F1F1F1	word_2:     	 dc 0xf1f1f1f1
+0x00000006: 0x5F5F5F5F	word_3:     	 dc 0x5f5f5f5f
+0x00000007: 0x00010001	word_4:     	 dc 0x00010001
+0x00000008: 0x05050505	word_5:     	 dc 0x05050505
+0x00000009: 0xF2345678	word_6:     	 dc 0xf2345678
+0x0000000A: 0xF7654321	word_7:     	 dc 0xf7654321
+0x0000000B: 0xFBCDABCD	word_8:     	 dc 0xfbcdabcd
+0x0000000C: 0xFF10FE10	word_9:     	 dc 0xff10fe10
+0x0000000D: 0xF1818181	word_10:    	 dc 0xf1818181
+0x00000100: 0x2C060109	revTest:    	 addi R6 R0 rev
+0x00000101: 0x2C0A0000	            	 	addi R10 R0 0x0
+0x00000102: 0x8D410004	loopTest:   	 lw R1 R10 word_1
+0x00000103: 0x5CDF0000	            	 	jalr R6
+0x00000104: 0xAD5E000E	            	 	sw R30 R10 0xE
+0x00000105: 0x2D4A0001	            	 	addi R10 R10 0x1
+0x00000106: 0x694B000A	            	 	seqi R11 R10 0xa
+0x00000107: 0x117FFFFA	            	 	beqz R11 loopTest
+0x00000108: 0xFFFF0000	            	 	halt
+0x00000109: 0x2C020000	rev:        	 addi R2 R0 0x0
+0x0000010A: 0x2C030001	            	 	addi R3 R0 0x1
+0x0000010B: 0x2C1E0000	            	 	addi R30 R0 0x0
+0x0000010C: 0x70440020	loop:       	 slti R4 R2 0x20
+0x0000010D: 0x109F0008	            	 	beqz R4 breakL
+0x0000010E: 0x00232826	            	 	and R5 R1 R3
+0x0000010F: 0x03C5F024	            	 	xor R30 R30 R5
+0x00000110: 0x6855001F	            	 	seqi R21 R2 0x1f
+0x00000111: 0x16BF0004	            	 	bnez R21 breakL
+0x00000112: 0x003F0802	            	 	srli R1 R1
+0x00000113: 0x03DFF000	            	 	slli R30 R30
+0x00000114: 0x2C420001	            	 	addi R2 R2 0x1
+0x00000115: 0x101FFFF6	            	 	beqz R0 loop
+0x00000116: 0x5BFF0000	breakL:     	 jr R31
+
+Label Report:
+word_1: 3 D: 16
+word_2: 4 D: 
+word_3: 5 D: 
+word_4: 6 D: 
+word_5: 7 D: 
+word_6: 8 D: 
+word_7: 9 D: 
+word_8: 10 D: 
+word_9: 11 D: 
+word_10: 12 D: 
+revtest: 14 D: 1
+looptest: 16 D: 21
+rev: 23 D: 14
+loop: 26 D: 35
+breakl: 36 D: 27, 31
+*XML file date: Wed 20/6/2012 6:49:12
