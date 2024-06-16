@@ -1,4 +1,4 @@
-DLX FPGA - project made to program an FPGA (Model number has been forgotten) with a DLX processor (running @60MHz or more) XILINX project.
+DLX FPGA - project made to program an FPGA (Model number is available in the project files) with a DLX processor (running @60MHz or more) XILINX project.
 The final project exists in the following directory: "lab7/lab7_source/SOURCE_S25".
 
 Testing is perfomed using special programs (RESA) provided by the TAU university course, Advanced Computer Structures.
